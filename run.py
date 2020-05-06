@@ -9,6 +9,7 @@ PASSWORD = ''
 
 g = Github(USERNAME, PASSWORD)
 for repo in g.get_user().get_repos():
+    print ('========== !!! CHANGE CREDENTIALS IN emailChanger.sh !!! ==========')
     domain = f'https://github.com/{USERNAME}/{repo.name}.git'
     subprocess.run(['git', 'clone', '--bare', domain])
     copyfile('emailChanger.sh', f'{repo.name}.git/emailChanger.sh')
