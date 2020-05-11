@@ -1,4 +1,4 @@
-# update-repos-with-new-email
+# gitusersync
 
 My git commits got corrupted after changing my GitHub username and removing an email associated with some of my commits.
 
