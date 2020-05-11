@@ -5,8 +5,8 @@ My git commits got corrupted after changing my GitHub username and removing an e
 ## Usage
 Update OLD_EMAIL, CORRECT_NAME and CORRECT_EMAIL on `emailChanger.sh`.
 
-Update USERNAME and PASSWORD on `run.py`
+Update USERNAME and PASSWORD on `gitusersync.py`
 
 Pip install requirements.txt
 
-Run `python run.py`
+Run `python gitusersync.py`
